@@ -7,6 +7,6 @@ RUN pip3 install flask
 ADD app.py /
 WORKDIR /
 
-EXPOSE 5000/tcp
+EXPOSE 80
 
 CMD ["python3", "app.py"]
